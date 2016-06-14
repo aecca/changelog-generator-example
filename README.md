@@ -1,11 +1,11 @@
 Installation
-===================
+------------
 ```
 $ npm install 
 ```
 
 Usage
-===================
+------------
 It's really simple!
 
 ```
@@ -13,8 +13,8 @@ $ npm run changelog
 ```
 
 Output 
-===================
-![output.png](WWW)
+------------
+![output.png](output.png)
 
 
 Credits 
