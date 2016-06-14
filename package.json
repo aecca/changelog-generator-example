@@ -1,0 +1,22 @@
+{
+  "name": "mr-gato",
+  "description": "Changelog generator from git metadata",
+  "homepage": "https://github.com/aecca/changelog-generator-example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aecca/changelog-generator-example"
+  },
+  "scripts": {
+    "changelog" : "touch CHANGELOG.md && node script/changelog.js",
+    "changelog-force" : "node script/changelog.js --force"
+  },
+  "version": "0.0.1-rc.1",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4.2.1 < 5"
+  },
+  "devDependencies": {
+    "add-stream": "^1.0.0",
+    "conventional-changelog": "^1.1.0"
+  }
+}
